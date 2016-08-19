@@ -1,0 +1,66 @@
+body{
+    background: #f4f4f4 !important;
+}
+
+.about{
+    
+    background: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+.about  p{
+ color:#c2c2c3;   
+}
+.about h4{
+    color: #646464;
+}
+.img-about{
+        -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    display: block;
+    margin: -70px auto 0 auto;
+}
+
+.informasi{
+    padding: 20px;
+}
+.in h2{
+    margin-top:40px;
+    text-align: center;
+    color: #646464;
+}
+.skill{
+    background: #2196f3;
+    color: #fff;
+}
+.determinate{
+    background-color: #fff !important;
+    height:5px;
+}
+
+.card{
+    margin:10px;   
+}
+.card img{
+    height: 300px;
+}
+.footernav{
+    background:#fff !important;
+}
+.nav-wrapper{
+    background:#fff !important;
+    margin: 0 auto;
+}
+.nav-wrapper ul{
+    margin-left: 200xp !important;
+}
+.nav-wrapper ul li a{
+    color:#2196f3 !important;
+    
+}
