@@ -48,7 +48,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tegar</span><br> Mobile & Web <br>Developer</h1>
 
-                    <a href="#" class="button">Download CV</a>
+                    <a href="resume.pdf" class="button">Download CV</a>
                 </div>
 
                 <div class="home__social">
@@ -357,11 +357,11 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="mailto:tegarkurniawan145@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact__form">
+                        <input type="text"  name="ContactName" placeholder="Name" class="contact__input">
+                        <input type="mail" name="ContactEmail" placeholder="Email" class="contact__input">
+                        <textarea name="ContactComment" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Kirim" class="contact__button button">
                     </form>
                 </div>
             </section>
