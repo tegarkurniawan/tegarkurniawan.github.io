@@ -1,450 +1,388 @@
-<html>
-<head>
-<title>Tegar Kurniawan</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="tegardesign.css">
-    
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/style.css">
-<script src="js/modernizr.js"></script> <!-- Modernizr -->
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="about col s12 z-depth-1" id="about">
-               <div class="profile-pic wow fadeIn a1 animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-                    <img class="img-about" src="neural.jpg" alt="">
-                    <div class="informasi">
-                        <h4>Muhamad Tegar Kurniawan</h4>
-                        <p style="width:400px;margin: 0 auto;">Hello my name is Muhamad Tegar Kurniawan. I am a Web Developer and Android Developer Native and Hybrid from indonesia</p>
-                    </div>
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Tegar Kurniawan</title>
+        <style>
+            .judul{
+                padding: 10px;
+                 color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Tegar Kurniawan</a>
                 </div>
-            </div>
-            <div class="in col s12">
-                <h2><i class="fa fa-gears"> Skill</i></h2>
-            </div>
-            <div class="skill col s12 z-depth-1" id="skill">
-                
-                <div class="col s6">
-                    <h4>Technical Skill</h4>
-                    <span>Html</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 100%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>CSS</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 95%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>PHP</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 95%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>Android</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 80%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>IOS (Hybrid)</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 80%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>JavaScript</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 85%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
-                    <span>Node Js</span>
-                    <div class="progress">
-                      <div class="determinate" style="width: 80%">
-                        <i class="fa fa-circle"></i>  
-                      </div>
-                    </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#portofolio" class="nav__link">Portofolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
                 </div>
-                
-                <div class="col s6">
-                    <h4>Tools & OS</h4>
-                    <span>Laravel</span>
-                    <hr>
-                    <span>Codeigneter</span>
-                    <hr>
-                    <span>Express JS</span>
-                    <hr>
-                    <span>Android Studio</span>
-                    <hr>
-                    <span>Ionic</span>
-                    <hr>
-                    <span>Cordova</span>
-                    <hr>
-                    <span>Angular 1</span>
-                    <hr>
-                    <span>Jquery</span>
-                    <hr>
-                    <span>Bootstrap</span>
-                    <hr>
-                    <span>Material Design</span>
-                    <hr>
-                    <span>Windows & Linux</span>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
                 </div>
-                
-            </div>
-            <div class="in col s12">
-                <h2><i class="fa fa-suitcase"> Work Experience</i></h2>
-            </div>
-            
-            <div class="col s12">
-                <section id="cd-timeline" class="cd-container">
-                          <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
+            </nav>
+        </header>
 
-                        </div> <!-- cd-timeline-img -->
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tegar</span><br> Mobile & Web <br>Developer</h1>
 
-                        <div class="cd-timeline-content">
-                            <h2>Prakerin PT Patualah</h2>
-                            <p>3 mount</p>
-
-                        </div> <!-- cd-timeline-content -->
-                      </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>CV Javatek</h2>
-                            <p>April 2015 - June 2015</p>
-
-
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>Tulpar Asia Digital</h2>
-                            <p>Juli 2015</p>
-
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-
-                </section> <!-- cd-timeline -->
-            </div>
-            <div class="in col s12">
-                <h2><i class="fa fa-th-list"> Portofolio</i></h2>
-            </div>
-            <div class="col s12">
-                <div class="row">
-                    <div class="col s12">
-                      <ul class="tabs">
-                        <li class="tab col s3"><a class="active" href="#test1">All</a></li>
-                        <li class="tab col s3"><a href="#test2">Web</a></li>
-                        <li class="tab col s3"><a href="#test3">Apps</a></li>
-                      </ul>
-                    </div>
-                    <div id="test1" class="col s12">
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/1.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://kece.id">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece<i class="material-icons right">close</i></span>
-                              <p>Kece is webiste reservation barbershop, message, studio, salon and skin center</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/4.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://e-tender.asia">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">E-tender.asia<i class="material-icons right">close</i></span>
-                              <p>E-tender asia is website tender for company to company </p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/5.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://riunglelang.e-tender.asia/a/#/">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Riung Lelang<i class="material-icons right">close</i></span>
-                              <p>Riung Lelang is a website tender for government to customer</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/2.jpg">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="https://play.google.com/store/apps/details?id=tulpar.id.kece.keceindonesia&referrer=utm_source%3Dkece_web%26utm_medium%3Dkece_web%26utm_term%3Dganteng%252C%2520cantik%252C%2520kece%26utm_campaign%3Dkece_web">Play Store</a></span><br>
-                                <span class="card-title activator grey-text text-darken-4"><a href="https://itunes.apple.com/us/app/kece/id1065732680?ls=1&mt=8">Apps store</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece Mobile Customer<i class="material-icons right">close</i></span>
-                              <p>Kece Mobile for customer is a apps for customer reservation</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/3.jpg">
-                            </div>
-                            <div class="card-content">
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece Mobile Bussines<i class="material-icons right">close</i></span>
-                              <p>Kece For bussines is a apps for client kece approve reservation  and others</p>
-                            </div>
-                        </div>
-
-                         <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/6.jpg">
-                            </div>
-                            <div class="card-content">
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">I Beacon Museum<i class="material-icons right">close</i></span>
-                              <p>Ibeacon for museum</p>
-                            </div>
-                        </div>
-                        
-<!--
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/6.jpg">
-                            </div>
-
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
--->
-                    </div>
-                    <div id="test2" class="col s12">
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/1.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://kece.id">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece<i class="material-icons right">close</i></span>
-                              <p>Kece is webiste reservation barbershop, message, studio, salon and skin center</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/4.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://e-tender.asia">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">E-tender.asia<i class="material-icons right">close</i></span>
-                              <p>E-tender asia is website tender for company to company </p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/5.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="http://riunglelang.e-tender.asia/a/#/">Link</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Riung Lelang<i class="material-icons right">close</i></span>
-                              <p>Riung Lelang is a website tender for government to customer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="test3" class="col s12">
-                    <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/2.jpg">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4"><a href="https://play.google.com/store/apps/details?id=tulpar.id.kece.keceindonesia&referrer=utm_source%3Dkece_web%26utm_medium%3Dkece_web%26utm_term%3Dganteng%252C%2520cantik%252C%2520kece%26utm_campaign%3Dkece_web">Play Store</a></span><br>
-                                <span class="card-title activator grey-text text-darken-4"><a href="https://itunes.apple.com/us/app/kece/id1065732680?ls=1&mt=8">Apps store</a></span>
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece Mobile Customer<i class="material-icons right">close</i></span>
-                              <p>Kece Mobile for customer is a apps for customer reservation</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/3.jpg">
-                            </div>
-                            <div class="card-content">
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Kece Mobile Bussines<i class="material-icons right">close</i></span>
-                              <p>Kece For bussines is a apps for client kece approve reservation  and others</p>
-                            </div>
-                        </div>
-
-                        <div class="card col s3">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="img/6.jpg">
-                            </div>
-                            <div class="card-content">
-                              <p>click image to detail</p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">I Beacon Museum<i class="material-icons right">close</i></span>
-                              <p>Ibeacon for museum</p>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="#" class="button">Download CV</a>
                 </div>
-                
-                <div class="in col s12">
-                <h2><i class="fa fa-graduation-cap"> Education</i></h2>
-            </div>
-            
-            <div class="col s12">
-                <section id="cd-timeline" class="cd-container">
-                          <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
 
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>Tk Al- Asrofiyah</h2>
-                            <p>2002-2003</p>
-
-                        </div> <!-- cd-timeline-content -->
-                      </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>SDN Margajaya 2</h2>
-                            <p>2003-2009</p>
-
-
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>MTS Yasiba</h2>
-                            <p>2009-2012</p>
-
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-                    
-                     <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>SMK Adi Sangggoro</h2>
-                            <h3>Rekayasa Perangkat Lunak</h3>
-                            <p>2012-2015</p>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                     <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>Universitas STIKOM BINANIAGA</h2>
-                            <h3>Sistem Informasi</h3>
-                            <p>2016~</p>
-
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                </section> <!-- cd-timeline -->
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/tegar-kurniawan-0a9786103/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                    <a href="https://github.com/tegarkurniawan" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
-            
-                <nav class="footernav col s12">
-                <div class="nav-wrapper">
-                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="https://github.com/tegarkurniawan">Github</a></li>
-                    <li><a href="https://plus.google.com/u/0/117925324063894369221/postsl">Google+</a></li>
-                   	<li><a href="https://www.linkedin.com/in/tegar-kurniawan-0a9786103?trk=hp-identity-photo">linkedin</a></li>
-                  </ul>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
                 </div>
-              </nav>
-                
-<!--
-                  <div class="card col s4">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/1.png">
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
                     </div>
                     
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <div>
+                        <h2 class="about__subtitle">I'am Muhamad Tegar Kurniawan</h2>
+                        <p class="about__text">I am a web & mobile developer with 6 years experience, I am someone who likes to learn new things about technology and read novels.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-html5 skills__icon'></i> -->
+                                <span class="skills__name">Flutter</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-css3 skills__icon'></i> -->
+                                <span class="skills__name">Ios Swift</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-javascript skills__icon' ></i> -->
+                                <span class="skills__name">Android Java</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Android Kotlin</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Flutter</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Ubuntu Server</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Html</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        
                     </div>
-                  </div>
--->
+                    
+                    <div>   
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Laravel</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Codeigniter</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Javascript</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Node Js</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">Css</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>           
+                        <!-- <img src="assets/img/work3.jpg" alt="" class="skills__img"> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__data">
+                        <h1>Prakerin PT Patualah</h1>
+                        <h3>2014</h3>
+                        <p>here I am a web developer in the context of a 3 month internship</p>
+                    </div>
+                    <div class="work__data">
+                        <h1>CV Javatek</h1>
+                        <h3>April 2015-June 2015</h3>
+                        
+                        <p>I became a freelance web programmer for 3 months during school and stopped when I graduated</p>
+                    </div>
+                    <div class="work__data">
+                        <h1>Tulpar Asia Digital</h1>
+                        <h3>Juli 2015-Feb 2017</h3>
+                        <p>I started working here as a web & mobile developer making kece.id and e-tender.id</p>
+                    </div>
+
+                    <div class="work__data">
+                        <h1>PT Rembon Karya Digital</h1>
+                        <h3>Feb 2017-Now</h3>
+                        <p>I started working here as a senior web & mobile developer making various web and mobile applications </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="portofolio">
+                <h2 class="section-title">Portofolio</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="cost-control.html" class="work__img">
+                        <img src="assets/img/porto1.png" alt="">
+                        <h1 class="judul">Cost Control</h1>
+                    </a>
+                    <a href="apg.html" class="work__img">
+                        <img src="assets/img/porto2.png" alt="">
+                        <h1 class="judul">Asian Para Games</h1>
+                    </a>
+                    <a href="mobileapproval.html" class="work__img">
+                        <img src="assets/img/porto3.png" alt="">
+                        <h1 class="judul">Mobile Approval</h1>
+                    </a>
+                    <a href="simwas.html" class="work__img">
+                        <img src="assets/img/porto4.png" alt="">
+                        <h1 class="judul">Kementrian Hukum dan Ham</h1>
+                    </a>
+                    <a href="xgolfer.html" class="work__img">
+                        <img src="assets/img/porto5.png" alt="">
+                        <h1 class="judul">X-Golfer</h1>
+                    </a>
+                    <a href="infina.html" class="work__img">
+                        <img src="assets/img/porto6.png" alt="">
+                        <h1 class="judul">Infina.id</h1>
+                    </a>
+                    <a href="mobile_doctor.html" class="work__img">
+                        <img src="assets/img/porto7.png" alt="">
+                        <h1 class="judul">Mobile Doctor</h1>
+                    </a>
+                    <a href="kompolnas.html" class="work__img">
+                        <img src="assets/img/porto8.png" alt="">
+                        <h1 class="judul">E-Lapor Kompolnas</h1>
+                    </a>
+                    <a href="kktpti.html" class="work__img">
+                        <img src="assets/img/porto9.png" alt="">
+                        <h1 class="judul">KKT-PTI</h1>
+                    </a>
+                    <a href="altarian.html" class="work__img">
+                        <img src="assets/img/porto10.png" alt="">
+                        <h1 class="judul">Altarian</h1>
+                    </a>
+                    <a href="lionair.html" class="work__img">
+                        <img src="assets/img/porto11.png" alt="">
+                        <h1 class="judul">Lion Air Vending Machine</h1>
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/porto12.png" alt="">
+                        <h1 class="judul">Kece.id</h1>
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/porto13.png" alt="">
+                        <h1 class="judul">E-tender.id</h1>
+                    </a>
+
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Tegar</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/ikybetranw/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/tegarkurniawan23/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/TegarNDA" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-         
-        </div>
-    </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-<script type="text/javascript">
-    $(document).ready(function(){
-    $('ul.tabs').tabs();
-  });
-</script>      
-</body>
+            <p class="footer__copy">&#169; Tegar Kurniawan. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

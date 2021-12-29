@@ -1,0 +1,117 @@
+/* MY MODAL CONTACT */
+#modal-contact .location-map {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  #modal-contact #map_canvas {
+    height: 200px !important;
+  }
+  #modal-contact .txt-1 {
+    margin-top: 10px;
+  }
+  #modal-contact .modal-body {
+    padding-top: 0;
+  }
+  #modal-contact .modal_body_map {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #modal-contact #map_canvas {
+    height: 100% !important;
+  }
+}
+
+#modal-contact .txt-1 {
+  margin-bottom: 30px;
+}
+
+#modal-contact .txt-1 span:nth-child(1) {
+  font: 700 24px/1 "Titillium Web";
+  display: block;
+}
+
+#modal-contact .txt-1 span:nth-child(2) {
+  font: 600 14px/1 "Titillium Web";
+  display: block;
+}
+
+#modal-contact .txt-2 label {
+  font: 600 10px/1.6 "Poppins";
+  margin-bottom: 5px;
+}
+
+#modal-contact .txt-2 input {
+  height: 32px;
+  font: 400 10px/1 "Poppins";
+  margin-bottom: 5px;
+}
+
+#modal-contact .txt-2 textarea {
+  font: 400 10px/1 "Poppins";
+  height: 90px;
+  resize: none;
+  padding: 0.25rem 0.5rem;
+}
+
+#modal-contact .txt-2 .btn-1 {
+  margin: 10px 0;
+  font: 600 12px/1 "Poppins";
+  height: 38px;
+  width: calc(100% - 80px);
+  float: left;
+  border-radius: 2px 0 0 2px;
+  background-color: #4b96f3;
+  border: none;
+}
+
+#modal-contact .txt-2 .btn-1:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#modal-contact .txt-2 .btn-1:hover {
+  background-color: #126ad6;
+}
+
+#modal-contact .txt-2 .btn-2 {
+  margin: 10px 0;
+  font: 600 12px/1 "Poppins";
+  height: 38px;
+  width: calc(80px);
+  float: left;
+  border-radius: 0 2px 2px 0;
+  background-color: #4285d7;
+  border: none;
+  outline: none;
+}
+
+#modal-contact .txt-2 .btn-2:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#modal-contact .footer {
+  font: 400 10px/1.5 "Poppins";
+}
+
+#modal-contact .footer span:nth-child(1) {
+  display: inline-block;
+  width: calc(100% - 90px);
+}
+
+#modal-contact .footer span:nth-child(2) {
+  display: inline-block;
+  width: 80px;
+}
+
+#modal-contact .col-md-6 .col-md-12:nth-child(6) {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=map.css.map */
